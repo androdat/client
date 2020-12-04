@@ -2016,7 +2016,7 @@ td {
     top: 23%;
     right: 5%;
   }
-  .menu-item[data-v-7bf3755a] {
+  .menu-item {
     width: 92%;
     height: 63px;
     min-width: 228.5px;
