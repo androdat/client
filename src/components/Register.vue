@@ -1983,7 +1983,7 @@ td {
   .grid-item-2-mobile {
     // border: solid red;
     position: relative;
-    overflow: scroll;
+    
   }
   .img-resize {
     width: 65px;
