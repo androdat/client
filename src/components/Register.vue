@@ -1312,46 +1312,46 @@ h4 {
   color: white;
 }
 
-@media screen and (max-width: 1200px) {
-  h4 {
-    width: fit-content;
-    position: absolute;
-    left: 10%;
-    top: 6%;
-    // transform: translate(-50%, -50%);
-    margin: 0;
-    padding: 0;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    color: white;
-  }
+// @media screen and (max-width: 1200px) {
+//   h4 {
+//     width: fit-content;
+//     position: absolute;
+//     left: 10%;
+//     top: 6%;
+//     // transform: translate(-50%, -50%);
+//     margin: 0;
+//     padding: 0;
+//     font-family: "Montserrat", sans-serif;
+//     font-weight: bold;
+//     font-size: 20px;
+//     color: white;
+//   }
 
-  .footer-container {
-    width: 320px;
-    width: 100%;
-    height: 49px;
-    background-color: white;
-    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 7px;
-    position: absolute;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-    top: 113% !important;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-  }
+//   .footer-container {
+//     width: 320px;
+//     width: 100%;
+//     height: 49px;
+//     background-color: white;
+//     -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+//     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+//     border-radius: 7px;
+//     position: absolute;
+//     left: 50%;
+//     -webkit-transform: translateX(-50%);
+//     transform: translateX(-50%);
+//     top: 113% !important;
+//     display: -webkit-box;
+//     display: -ms-flexbox;
+//     display: flex;
+//     -ms-flex-pack: distribute;
+//     justify-content: space-around;
+//   }
 
-  .logo {
-    width: 83px !important;
-    height: 83px !important;
-  }
-}
+//   .logo {
+//     width: 83px !important;
+//     height: 83px !important;
+//   }
+// }
 
 .about-text {
   width: 80%;
@@ -1690,15 +1690,15 @@ h4 {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
 }
-@media screen and (max-width: 1200px) {
-  .inputfield {
-    border: solid 1px #1e63bd;
-    width: auto;
-    height: 35px;
-    font-size: 16px;
-    font-family: "Montserrat", sans-serif;
-  }
-}
+// @media screen and (max-width: 1200px) {
+//   .inputfield {
+//     border: solid 1px #1e63bd;
+//     width: auto;
+//     height: 35px;
+//     font-size: 16px;
+//     font-family: "Montserrat", sans-serif;
+//   }
+// }
 
 .ul-2 {
   ul {
