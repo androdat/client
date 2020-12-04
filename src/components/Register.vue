@@ -1312,46 +1312,46 @@ h4 {
   color: white;
 }
 
-// @media screen and (max-width: 1200px) {
-//   h4 {
-//     width: fit-content;
-//     position: absolute;
-//     left: 10%;
-//     top: 6%;
-//     // transform: translate(-50%, -50%);
-//     margin: 0;
-//     padding: 0;
-//     font-family: "Montserrat", sans-serif;
-//     font-weight: bold;
-//     font-size: 20px;
-//     color: white;
-//   }
+@media screen and (max-width: 1200px) {
+  h4 {
+    width: fit-content;
+    position: absolute;
+    left: 10%;
+    top: 6%;
+    // transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+  }
 
-//   .footer-container {
-//     width: 320px;
-//     width: 100%;
-//     height: 49px;
-//     background-color: white;
-//     -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-//     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-//     border-radius: 7px;
-//     position: absolute;
-//     left: 50%;
-//     -webkit-transform: translateX(-50%);
-//     transform: translateX(-50%);
-//     top: 113% !important;
-//     display: -webkit-box;
-//     display: -ms-flexbox;
-//     display: flex;
-//     -ms-flex-pack: distribute;
-//     justify-content: space-around;
-//   }
+  .footer-container {
+    width: 320px;
+    width: 100%;
+    height: 49px;
+    background-color: white;
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: 113% !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
 
-//   .logo {
-//     width: 83px !important;
-//     height: 83px !important;
-//   }
-// }
+  .logo {
+    width: 83px !important;
+    height: 83px !important;
+  }
+}
 
 .about-text {
   width: 80%;
@@ -1690,15 +1690,15 @@ h4 {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
 }
-// @media screen and (max-width: 1200px) {
-//   .inputfield {
-//     border: solid 1px #1e63bd;
-//     width: auto;
-//     height: 35px;
-//     font-size: 16px;
-//     font-family: "Montserrat", sans-serif;
-//   }
-// }
+@media screen and (max-width: 1200px) {
+  .inputfield {
+    border: solid 1px #1e63bd;
+    width: auto;
+    height: 35px;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+  }
+}
 
 .ul-2 {
   ul {
@@ -1987,13 +1987,13 @@ td {
     height: 68px;
   }
 
-  .logo[data-v-7bf3755a] {
-    width: 99px !important;
-    height: 104px !important;
-    position: absolute !important;
-    left: 12% !important;
-    top: 60% !important;
-    transform: translate(-50%, -50%) !important;
+  .logo {
+    width: 99px ;
+    height: 104px ;
+    position: absolute ;
+    left: 12% ;
+    top: 60% ;
+    transform: translate(-50%, -50%) ;
   }
 
   .hamburger span {
@@ -2028,7 +2028,7 @@ td {
     margin: 16px auto;
   }
 
-  .content[data-v-7bf3755a] {
+  .content {
     width: 90%;
     height: 80%;
     border: solid 2px #1e63bd;
@@ -2039,7 +2039,7 @@ td {
     // overflow: auto;
   }
 
-  .form-parent[data-v-7bf3755a] {
+  .form-parent {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -2051,7 +2051,7 @@ td {
     top: 8%;
     overflow: auto;
   }
-  .next[data-v-7bf3755a] {
+  .next {
     cursor: pointer;
     position: absolute;
     left: 50%;
@@ -2062,7 +2062,7 @@ td {
     height: 9%;
   }
 
-  .ul-2 ul[data-v-7bf3755a] {
+  .ul-2 ul {
     margin: 0;
     padding: 0;
     margin-top: 6%;
@@ -2072,7 +2072,7 @@ td {
     flex-wrap: wrap;
   }
 
-  .time-parent[data-v-7bf3755a] {
+  .time-parent {
     overflow: auto;
     width: 90%;
     max-height: 175px;
@@ -2083,13 +2083,13 @@ td {
     transform: translate(-50%, -50%);
   }
 
-  .time-val[data-v-7bf3755a] {
+  .time-val {
     height: 45px;
     width: 125px;
     border: solid 2px #1e63bd;
   }
 
-  .time-parent ul[data-v-7bf3755a] {
+  .time-parent  {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -2114,7 +2114,7 @@ td {
 }
 
 @media (width: 415px) {
-  .label[data-v-7bf3755a] {
+  .label {
     font-family: "Montserrat", sans-serif;
     font-weight: normal;
     font-size: 18px;
@@ -2122,7 +2122,7 @@ td {
     margin-bottom: 4px;
   }
 
-  .inputfield[data-v-7bf3755a] {
+  .inputfield {
     border: solid 1px #1e63bd;
     width: auto;
     height: 27px;
