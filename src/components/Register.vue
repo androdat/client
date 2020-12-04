@@ -1988,12 +1988,12 @@ td {
   }
 
   .logo[data-v-7bf3755a] {
-    width: 99px;
-    height: 104px;
-    position: absolute;
-    left: 12%;
-    top: 60%;
-    transform: translate(-50%, -50%);
+    width: 99px !important;
+    height: 104px !important;
+    position: absolute !important;
+    left: 12% !important;
+    top: 60% !important;
+    transform: translate(-50%, -50%) !important;
   }
 
   .hamburger span {
