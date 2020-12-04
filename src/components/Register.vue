@@ -2063,6 +2063,7 @@ td {
     background: #1e63bd;
     width: 29%;
     height: 9%;
+    margin-bottom: 10px;
   }
 
   .ul-2 ul {
