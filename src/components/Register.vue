@@ -1962,6 +1962,9 @@ td {
 // MEDIA QUERIES
 
 @media screen and (max-width: 1000px) {
+  .blur {
+  filter: blur(3px);
+}
   .hide-for-mobile {
     display: none !important;
   }
