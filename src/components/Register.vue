@@ -452,7 +452,7 @@
       </div>
     </div>
 
-    <div class="grid-container-mobile hide-for-dekstop">
+    <div class="grid-container-mobile hide-for-dekstop" v-bind:class="{ blur: loader_show }">
       <div class="grid-item grid-item-1-mobile">
         <div class="logo">
           <img class="img-resize" src="../assets/logo.png" alt />
@@ -468,7 +468,7 @@
 
       <div class="grid-item grid-item-2-mobile">
         <div
-          @click="menu(1)"
+          
           class="menu-item "
           v-bind:class="{ menu_item_pressed: true }"
         >
