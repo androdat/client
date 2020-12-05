@@ -799,7 +799,7 @@ export default {
     let res = await axios.get(
       "https://script.google.com/macros/s/AKfycbzJ8Nn2ytbGO8QOkGU1kfU9q50RjDHje4Ysphyesyh-osS76wep/exec"
     );
-    // console.log(res.data)
+    
     this.data = res.data;
     for (var i = 0; i < res.data.length; i++) {
       let val = {
@@ -867,7 +867,7 @@ export default {
       this.$refs[5][1].style.backgroundColor = "white";
     },
     selected(c_id) {
-      console.log("is called")
+      
       //CSS
       this.clear_inline();
       this.$refs[c_id][0].style.color = "white";
@@ -895,7 +895,7 @@ export default {
     },
 
     filter() {
-      console.log("is called")
+      
       //Filtering Time by constraints
       this.final_timeslots = [];
 
@@ -954,7 +954,7 @@ export default {
     },
 
     day_selected(i) {
-      console.log("is called")
+      
       //CSS
       for (let i = 0; i < this.final_timeslots.length; i++) {
         this.final_timeslots[i].clicked = false;
@@ -968,7 +968,7 @@ export default {
     },
 
     time_selected(i) {
-      console.log("is called")
+      
       //CSS
       for (let i = 0; i < this.final_time[0].length; i++) {
         if (window[`controll${i}`][0].classList.contains("timeslot_clicked")) {
@@ -995,7 +995,7 @@ export default {
       return humanDateFormat;
     },
     get_Date(UNIX_timestamp) {
-      console.log("is called")
+      
       // To convert unix time stamp to readable format
       // const dateObject = new Date(UNIX_timestamp * 1);
       // const humanDateFormat = dateObject.toLocaleString(undefined, {
@@ -1031,7 +1031,7 @@ export default {
         time: tConvert(convdataTime),
         timestamp: UNIX_timestamp
       };
-      // console.log(val)
+      
 
       return val;
     },
