@@ -1033,7 +1033,7 @@ export default {
       };
       console.log(val)
 
-      return day;
+      return humanDateFormat;
     },
 
     fs(e) {
