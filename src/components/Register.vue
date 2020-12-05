@@ -434,9 +434,9 @@
                   <tr>
                     <th>Time Slot</th>
                     <td>
-                      <!-- {{ get_Date(this.selected_timeslot).day }}
+                      {{ get_Date(this.selected_timeslot).day }}
                       {{ get_Date(this.selected_timeslot).month }}
-                      {{ get_Date(this.selected_timeslot).time }} -->
+                      {{ get_Date(this.selected_timeslot).time }}
                     </td>
                   </tr>
                 </table>
@@ -1028,12 +1028,12 @@ export default {
       let val = {
         day: day,
         month: month,
-        time: tConvert(convdataTime),
+        time: convdataTime,
         timestamp: UNIX_timestamp
       };
-      console.log(val)
+      // console.log(val)
 
-      return day;
+      return val;
     },
 
     fs(e) {
@@ -1153,20 +1153,20 @@ const filterByLimits = (arr = [], upper, lower) => {
   return res;
 };
 
-function tConvert(time) {
-  // Check correct time format and split into components
-  time = time.toString().match(/^([01]\d|2[0-3])(:)([0-5]\d)(:[0-5]\d)?$/) || [
-    time
-  ];
+// function tConvert(time) {
+//   // Check correct time format and split into components
+//   time = time.toString().match(/^([01]\d|2[0-3])(:)([0-5]\d)(:[0-5]\d)?$/) || [
+//     time
+//   ];
 
-  if (time.length > 1) {
-    // If time format correct
-    time = time.slice(1); // Remove full string match value
-    time[5] = +time[0] < 12 ? "AM" : "PM"; // Set AM/PM
-    time[0] = +time[0] % 12 || 12; // Adjust hours
-  }
-  return time.join(""); // return adjusted time or original string
-}
+//   if (time.length > 1) {
+//     // If time format correct
+//     time = time.slice(1); // Remove full string match value
+//     time[5] = +time[0] < 12 ? "AM" : "PM"; // Set AM/PM
+//     time[0] = +time[0] % 12 || 12; // Adjust hours
+//   }
+//   return time.join(""); // return adjusted time or original string
+// }
 
 function onlyUnique(value, index, self) {
   return self.indexOf(value) === index;
