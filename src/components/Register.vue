@@ -2,7 +2,7 @@
   <div>
     <!-- {{final_timeslots}}
     {{testdate}} -->
-    {{temparray}}
+    <!-- {{temparray}} -->
     <!-- {{dateobj}} -->
     <div
       style="display: none;"
