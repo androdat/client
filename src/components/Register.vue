@@ -1,6 +1,7 @@
 <template>
   <div>
     {{final_timeslots}}
+    {{testdate}}
     <div
       style="display: none;"
       id="loader"
@@ -834,7 +835,8 @@ export default {
       alert_show: false,
       alert_color: null,
       loader_show: false,
-      reset: false
+      reset: false,
+      testdtae:[],
     };
   },
 
@@ -911,9 +913,12 @@ export default {
       }
 
       let date = [];
+      
       for (var x = 0; x < temp_array.length; x++) {
         date.push(temp_array[x].day.toString() + " " + temp_array[x].month);
       }
+      this.testdate=date
+      
 
       var unique = date.filter(onlyUnique);
 
