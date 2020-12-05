@@ -997,10 +997,10 @@ export default {
     get_Date(UNIX_timestamp) {
       console.log("is called")
       // To convert unix time stamp to readable format
-      const dateObject = new Date(UNIX_timestamp * 1);
-      const humanDateFormat = dateObject.toLocaleString(undefined, {
-        timeZone: "Asia/Kolkata"
-      });
+      // const dateObject = new Date(UNIX_timestamp * 1);
+      // const humanDateFormat = dateObject.toLocaleString(undefined, {
+      //   timeZone: "Asia/Kolkata"
+      // });
       //  this.dateobj.push(humanDateFormat)
       var months_arr = [
         "Jan",
@@ -1016,7 +1016,7 @@ export default {
         "Nov",
         "Dec"
       ];
-      var my_date = new Date(humanDateFormat);
+      var my_date = new Date(UNIX_timestamp*1);
       var month = months_arr[my_date.getMonth()];
       var day = my_date.getDate();
 
@@ -1033,7 +1033,7 @@ export default {
       };
       console.log(val)
 
-      return humanDateFormat;
+      return day;
     },
 
     fs(e) {
