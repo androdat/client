@@ -1,7 +1,8 @@
 <template>
   <div>
-    {{final_timeslots}}
-    {{testdate}}
+    <!-- {{final_timeslots}}
+    {{testdate}} -->
+    {{temparray}}
     <div
       style="display: none;"
       id="loader"
@@ -837,6 +838,7 @@ export default {
       loader_show: false,
       reset: false,
       testdtae:[],
+      temparray:[],
     };
   },
 
@@ -911,6 +913,7 @@ export default {
         this.get_Date(this.timeslots[i]);
         temp_array.push(this.get_Date(this.timeslots[i]));
       }
+      this.temparray=temp_array
 
       let date = [];
       
