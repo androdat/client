@@ -1,5 +1,6 @@
 <template>
   <div>
+    {{final_timeslots}}
     <div
       style="display: none;"
       id="loader"
