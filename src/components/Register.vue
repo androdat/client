@@ -656,7 +656,7 @@
         >
           <div class="relative">
             <div class="header">
-              <p>Select a Tome Slot</p>
+              <p>Select a Time Slot</p>
             </div>
 
             <div class="form-parent">
@@ -1125,7 +1125,7 @@ export default {
       this.loader_show = false;
 
       if (res.data == "Successfully Posted") {
-        this.alert_msg = "Registration Successfull";
+        this.alert_msg = "Registration Successful";
         this.alert_show = !this.alert_show;
         this.alert_color = true;
         this.reset = true;
